@@ -1,0 +1,10 @@
+h1{
+    color:aqua; 
+}
+.hightlight{
+    border: solid;
+}
+#profile{
+    border:solid;
+    border-color: purple;
+}
