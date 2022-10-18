@@ -6,58 +6,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pjp</title>
     <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/87e902a523.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-    <div>
+    <div id="top">
         <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"/>
         <input type="search" value="검색"/>
+        <div>
+            <i class="fa-sharp fa-solid fa-house"></i>
+            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            <i class="fa-sharp fa-solid fa-envelope"></i>
+            <i class="fa-sharp fa-solid fa-heart"></i>
+            
+        </div>
     </div>
     <div id="profile">
-        <img src="img/3.jpg" width="50px"/>
-        <p><h1>-__-</h1></p>
-        <button>프로필 편집</button>
+        <div class="profile_pic">
+             <img class="circle_img" src="img/3.jpg"/>
+        </div>
+        <div id="profile_info">
+            <div id="id"> jun-__-</div>
+            <i class="fa-sharp fa-solid fa-gear"></i>
+            <button>프로필 편집</button>
+        </div>
         
     </div>
-    <div>
+    <div id="intro">
         <p><strong>박준표 (park jun pyo)</strong><br>
         학생
         </p>
         <p>학교홈페이지 :<a href="https://juksan.hs.kr/">죽산고등학교</a></p>
     </div>
-    <div>
-        <div class="hightlight">
-            <img src="img/데스에더.jpg" width="35px"/>
+    <div id="highlight_area">
+        <div class="highlight"/>
+        <div class="highlight_pic"/>
+            <img class="circle_img" src="img/데스에더.jpg"/>
         </div>
         <div>
             🖤🖤🖤
         </div>
-        <div class="hightlight">
-            <img src="img/얼티메이트.jpg" width="35px"/>
+    </div>
+    <div class="highlight_pic">
+        <img class="circle_img" src="img/얼티메이트.jpg"/>
         </div>
         <div>
             🤍🤍🤍
         </div>
     </div>
-    <div>   
-        <p>게시물<br>
-        팔로워<br>
-        팔로우<br>
-        147<br>
-        258<br>
-        369</p>
+    <div id="post">   
+        <div class="stat">
+            게시물<br>
+            147
+        </div>
+        <div class="stat">
+            팔로워<br>
+            258
+        </div>
+        <div class="stat">
+            팔로우<br>
+            369
+        </div>
+    
     </div>
-    <div></div>
-    <div>
-        <img src="img/1.jpg" width="32%"/>
-        <img src="img/2.jpg" width="32%"/>
-        <img src="img/3.jpg" width="32%"/>
-        <img src="img/4.jpg" width="32%"/>
-        <img src="img/5.jpg" width="32%"/>
-        <img src="img/6.jpg" width="32%"/>
-        <img src="img/7.jpg" width="32%"/>
-        <img src="img/8.jpg" width="32%"/>
-        <img src="img/9.jpg" width="32%"/>
+    <div id="sub_icon">
+        <div class="selected">
+            <i class="fa-sharp fa-solid fa-table-cells-large"></i>
+        </div>
+         <div>
+            <i class="fa-sharp fa-solid fa-film"></i>
+        </div>
+        <div>
+            <i class="fa-sharp fa-solid fa-circle-play"></i>
+        </div>
+        <div>
+            <i class="fa-sharp fa-solid fa-bookmark"></i>
+        </div>
+        <div>
+            <i class="fa-sharp fa-solid fa-user-plus"></i>
+        </div>
+    </div>
+    <div id="thumb">
+        <div class="thumb">
+            <img src="img/1.jpg" class="nail"/>
+            <img src="img/2.jpg" class="nail"/>
+            <img src="img/3.jpg" class="nail"/>
+        </div>
+        <div class="thumb">
+            <img src="img/4.jpg" class="pnai"/>
+        <img src="img/5.jpg" class="pnai"/>
+        <img src="img/6.jpg" class="pnai"/>
+        </div>
+        <div class="thumb">
+        <img src="img/7.jpg" class="pnai"/>
+        <img src="img/8.jpg" class="pnai"/>
+        <img src="img/9.jpg" class="pnai"/>
+        </div>
     </div>
 </body>
-</html>
+</html> 
